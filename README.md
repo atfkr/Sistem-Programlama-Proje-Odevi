@@ -3,8 +3,8 @@
 * Ödevin amacı verilen anahtara göre giriş metnini kriptolayan veya kriptolu metni çözümleyebilen programı C dilinde yazmaktır.
 * libfdr ve standart C kütüphaneleri haricinde kütüphane kullanılmayacaktır.
 * Dosya okuma ve çözümleme için fields kullanılacaktır.
-Güncelleme 16.05.2021
--Programın Çalışması:
+# Güncelleme 16.05.2021
+Programın Çalışması:
 * Program ilk olarak parametre sayısının doğruluğunu kontol etmekte
 * Parametre sayısı doğru ise girdi ve kilit dosyalarının NULL olup olmadığını kontrol etmekte
 * Burada da bir sorun yok ise kilit dosyasını okumakta
