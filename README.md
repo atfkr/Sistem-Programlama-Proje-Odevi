@@ -10,4 +10,8 @@ Programın Çalışması:
 * Burada da bir sorun yok ise kilit dosyasını okumakta
 * Okurken bir hata ile karşılaşır ise kilit dosyasının bozuk olduğunu ekrana yazıp sonlanmakta
 * Eğer hata olmadan okuma işlemi tamamlanır ise e veya d parametrelerine göre işlemleri yapmakta.
-# NOT:Verilen Tüm örnekler denenmiş ve kontrol edilmiştir.Bir hata ile karşılaşılmamıştır.
+# NOT:
+* Verilen Tüm örnekler denenmiş ve kontrol edilmiştir.Bir hata ile karşılaşılmamıştır.
+* Dökümanda istenildiği üzere istiklal_marsi_2.txt ve kilit dosyası projeye eklenmiştir.
+* run komutu ornek_metin için düzenlendiğinden istiklal_marsi_2.txt'yi derlemeyecektir.
+* Proje libfdr'ın h dosyaları olmadan hata verdiği için sadece h dosyaları eklenmiştir. .a dosyası eklenmemiştir.
