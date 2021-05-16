@@ -13,10 +13,10 @@ int main(int argc, char **argv)
 {
     FILE *f;
     IS girdi, kilit;
-    JRB agacKod, agacKelime, yedek, tilt, cikti;
+    JRB agacKod, agacKelime, yedek;
     Node *n;
     int i, j;
-    char *tmp, *gelenYol, *gidenYol;
+    char *tmp;
     if (argc != 4) { fprintf(stderr, "Parametre hatasi(kripto islem giris_metni cikis_metni)\n"); exit(1); }
 
     girdi = new_inputstruct(argv[2]);
@@ -82,6 +82,7 @@ int main(int argc, char **argv)
             }
         }
         fclose(f);
+
     }
     if (strcmp(argv[1],"-d")==0)
     {
@@ -106,7 +107,6 @@ int main(int argc, char **argv)
         }
         fclose(f);
     }
-    
     jettison_inputstruct(girdi);
     jettison_inputstruct(kilit);
     return 0;
