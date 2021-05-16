@@ -1,5 +1,5 @@
 # Sistem-Programlama-Proje-Odevi
-# İbrahim Atıf KURU Proje Yöneticisi
+# İbrahim Atıf KURU B191210005 Proje Yöneticisi
 * Ödevin amacı verilen anahtara göre giriş metnini kriptolayan veya kriptolu metni çözümleyebilen programı C dilinde yazmaktır.
 * libfdr ve standart C kütüphaneleri haricinde kütüphane kullanılmayacaktır.
 * Dosya okuma ve çözümleme için fields kullanılacaktır.
